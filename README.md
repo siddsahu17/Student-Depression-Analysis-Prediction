@@ -12,9 +12,10 @@ Student-Depression-Analysis-Prediction/
 ├── data/
 │   └── Student Depression Dataset.csv     # Raw dataset used for training and analysis
 │
-├── streamlit_app.py                       # Main Streamlit dashboard with EDA + ML
-├── model_training.py                      # Optional (if separated): model training logic
-├── README.md                              # You're here!
+├── app.py                                             # Main Streamlit dashboard with EDA + ML
+├── run.ipynb                                          # Run this file for pickle model genration
+├── student-depression-classification.ipynb            # Run this file for all the algorithm dependancies
+├── README.md                                          # You're here!
 ```
 
 ---
@@ -58,7 +59,7 @@ pip install streamlit pandas numpy seaborn scikit-learn matplotlib xgboost light
 
 3. **Run the Streamlit app**:
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 ---
